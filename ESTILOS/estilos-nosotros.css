@@ -1,3 +1,5 @@
+
+
 * {
   margin: 0px;
   padding: 0px;
@@ -39,12 +41,8 @@ div.menu a {
 
 nav > a {
   margin-right: 1.5rem;
-  font-size: 15px;
-  color: #1D2D44;
   text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 660;
-}
+ }
 
 .iniciar {
   background-color: #1D2D44;
@@ -74,75 +72,215 @@ nav > a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.portada {
+  width: 100%;
+  height: 450px;
+  background-image:
+    linear-gradient(
+      rgba(29, 45, 68, 0.6),
+      rgba(29, 45, 68, 0.6)
+    ),
+    url("../IMG/pag-dest/amaz.jpg");
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.portada-texto {
+  max-width: 750px;
+  color: white;
+}
+
+.portada h1 {
+  font-size: 45px;
+  margin-bottom: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.portada p {
+  font-size: 19px;
+  line-height: 1.8;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.historia {
+  width: 100%;
+  background-color: white;
+  padding: 90px 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.historia-imagen {
+  width: 50%;
+}
+
+.historia-imagen img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.historia-texto {
+  width: 50%;
+}
+
+.historia-texto h2 {
+  font-size: 32px;
+  color: #1D2D44;
+  margin-bottom: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.historia-texto p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: #444;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.principios {
+  width: 100%;
+  background-color: #F4F1DE;
+  padding: 80px 80px;
+  text-align: center;
+}
+
+.principios h2 {
+  font-size: 32px;
+  color: #1D2D44;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.descripcion {
+  font-size: 17px;
+  color: #555;
+  margin-bottom: 45px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor-tarjetas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.tarjeta {
+  background-color: white;
+  width: 300px;
+  padding: 40px 25px;
+  border-radius: 10px;
+}
+
+.tarjeta h3 {
+  font-size: 22px;
+  color: #1D2D44;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.tarjeta p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.8;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.elegirnos {
+  width: 100%;
+  background-color: white;
+  padding: 80px 80px;
+  text-align: center;
+}
+
+.elegirnos h2 {
+  font-size: 32px;
+  color: #1D2D44;
+  margin-bottom: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor-beneficios {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.beneficio {
+  width: 300px;
+  padding: 30px;
+}
+
+.beneficio h3 {
+  font-size: 21px;
+  color: #1D2D44;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.beneficio p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.8;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.invitacion {
+  width: 100%;
+  background-color: #F4F1DE;
+  padding: 80px 30px;
+  text-align: center;
+}
+
+.invitacion h2 {
+  font-size: 32px;
+  color: #1D2D44;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.invitacion p {
+  font-size: 17px;
+  color: #555;
+  margin-bottom: 35px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #1D2D44;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.boton:hover {
+  background-color: #354E6C;
+}
 
 
 .footer {
@@ -151,7 +289,6 @@ nav > a {
   padding: 60px 20px 20px 20px;
   font-family: 'Open Sans', sans-serif;
 }
-
 
 .footer-contenido {
   max-width: 1200px;
@@ -163,7 +300,6 @@ nav > a {
   padding-bottom: 40px;
   border-bottom: 1px solid rgba(244, 241, 222, 0.2);
 }
-
 
 .footer-logo {
   max-width: 300px;
@@ -181,15 +317,13 @@ nav > a {
   line-height: 1.5;
 }
 
-
-.footer-links h3, 
+.footer-links h3,
 .footer-social h3 {
   font-size: 17px;
   margin-bottom: 15px;
   color: #C5D1DE;
   font-weight: 700;
 }
-
 
 .footer-links ul {
   list-style: none;
@@ -200,7 +334,7 @@ nav > a {
   margin-bottom: 10px;
 }
 
-.footer-links a, 
+.footer-links a,
 .social-icons a {
   color: #C5D1DE;
   text-decoration: none;
@@ -208,7 +342,7 @@ nav > a {
   transition: color 0.3s ease;
 }
 
-.footer-links a:hover, 
+.footer-links a:hover,
 .social-icons a:hover {
   color: #FFFFFF;
   text-decoration: underline;
@@ -226,8 +360,7 @@ nav > a {
   margin-bottom: 5px;
 }
 
-
-.derechos{
+.derechos {
   text-align: center;
   padding-top: 25px;
   font-size: 13px;
@@ -235,9 +368,92 @@ nav > a {
 }
 
 
+
+@media (max-width: 992px) {
+
+  nav {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  nav > a {
+    margin-right: 0;
+  }
+
+  .historia {
+    padding: 60px 40px;
+    gap: 30px;
+  }
+
+  .principios,
+  .elegirnos {
+    padding: 60px 30px;
+  }
+}
+
+
+
 @media (max-width: 768px) {
+
+  .portada {
+    height: 350px;
+  }
+
+  .portada h1 {
+    font-size: 30px;
+  }
+
+  .portada p {
+    font-size: 16px;
+  }
+
+  .historia {
+    flex-direction: column;
+    padding: 50px 25px;
+  }
+
+  .historia-imagen,
+  .historia-texto {
+    width: 100%;
+  }
+
+  .historia-imagen img {
+    height: 250px;
+  }
+
+  .contenedor-tarjetas {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contenedor-beneficios {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tarjeta,
+  .beneficio {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .invitacion h2 {
+    font-size: 27px;
+  }
+
   .footer-contenido {
     flex-direction: column;
     gap: 30px;
+  }
+
+  .social-icons {
+    flex-wrap: wrap;
   }
 }

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Únete</title>
+    <title>Únete - Australis Suite</title>
     <link rel="stylesheet" href="../ESTILOS/estilos-unete.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,12 +11,17 @@
 </head>
 <body>
      <nav>
-        <img src="../IMG/Firefly_RemoveBackground.png" alt="">
+        <div>
+            <a href="../PAG/home.html">
+                <img src="../IMG/Firefly_RemoveBackground.png" alt="">
+            </a>
+        </div>
+        
 
         <div class="menu">
             <a href="../PAG/destinos.html">Destinos</a>
-            <a href="">Paquetes y Tours</a>
-            <a href="">Nosotros</a>
+            <a href="../PAG/paquetesytours.html">Paquetes y Tours</a>
+            <a href="../PAG/nosotros.html">Nosotros</a>
             <a href="../PAG/unete.html">Únete</a>
             <a href="">Contacto</a>
         </div>
@@ -25,47 +30,185 @@
 
     </nav>
 
+    <main class="unete">
+        <section class="unete-intro">
+            <h1>Únete a nuestra próxima aventura</h1>
+            <p>Descubre nuevos lugares, conoce personas y comparte experiencias que se convierten en recuerdos.</p>
+        </section>
 
+        <section class="unete-tarjetas">
+            <article class="unete-tarjeta">
+                <img src="../IMG/pag-unete/amigos.jpg" alt="Amigos viajando juntos y tomándose una selfie en Machu Picchu">
+                <div class="unete-tarjeta-texto">
+                    <h3>Viaja en compañía</h3>
+                    <p>Conoce personas que comparten tus ganas de explorar.</p>
+                </div>
+            </article>
 
+            <article class="unete-tarjeta">
+                <img src="../IMG/pag-unete/destinos.jpg" alt="Grupo de viajeros con los brazos abiertos frente a las montañas de Machu Picchu">
+                <div class="unete-tarjeta-texto">
+                    <h3>Descubre nuevos destinos</h3>
+                    <p>Encuentra inspiración para tu próxima aventura.</p>
+                </div>
+            </article>
 
+            <article class="unete-tarjeta">
+                <img src="../IMG/pag-unete/excursion.jpg" alt="Grupo de excursionistas con mochilas posando frente a la montaña">
+                <div class="unete-tarjeta-texto">
+                    <h3>Comparte experiencias</h3>
+                    <p>Disfruta el camino y crea recuerdos juntos.</p>
+                </div>
+            </article>
+        </section>
 
+        <section class="registro-fondo" id="registro">
+            <div class="registro">
 
+                <div class="registro-encabezado">
+                    <h2>¡Registrate!</h2>
+                    <p>Y comienza tu próxima aventura.</p>
+                </div>
 
+                <form id="form-registro" class="registro-form">
 
+                    <h3>Tus datos personales</h3>
+                    <div class="form-grid">
+                        <div class="campo">
+                            <label for="nombres">Nombres *</label>
+                            <input type="text" id="nombres" name="nombres" placeholder="Tus nombres" autocomplete="given-name" required>
+                        </div>
 
+                        <div class="campo">
+                            <label for="apellidos">Apellidos *</label>
+                            <input type="text" id="apellidos" name="apellidos" placeholder="Tus apellidos" autocomplete="family-name" required>
+                        </div>
 
+                        <div class="campo">
+                            <label for="correo">Correo electrónico *</label>
+                            <input type="email" id="correo" name="correo" placeholder="Tu correo" autocomplete="email" required>
+                        </div>
 
+                        <div class="campo">
+                            <label for="clave">Contraseña *</label>
+                            <input type="password" id="clave" name="clave" placeholder="Mínimo 8 caracteres" minlength="8" autocomplete="new-password" required>
+                        </div>
 
+                        <div class="campo">
+                            <label for="fecha">Fecha de nacimiento *</label>
+                            <input type="date" id="fecha" name="fecha" autocomplete="bday" required>
+                        </div>
 
+                        <div class="campo">
+                            <label for="pais">País de residencia *</label>
+                            <select id="pais" name="pais" autocomplete="country-name" required>
+                                <option value="">Selecciona tu país</option>
+                                <option>Perú</option>
+                                <option>Colombia</option>
+                                <option>México</option>
+                                <option>Argentina</option>
+                                <option>Chile</option>
+                                <option>Ecuador</option>
+                                <option>Bolivia</option>
+                                <option>Brasil</option>
+                                <option>España</option>
+                                <option>Estados Unidos</option>
+                                <option>Otro</option>
+                            </select>
+                        </div>
+                    </div>
 
+                    <h3>¿Qué viajes te gustan?</h3>
+                    <div class="form-grid">
+                        <div class="campo">
+                            <label for="destino">Destino favorito *</label>
+                            <select id="destino" name="destino" required>
+                                <option value="">Selecciona un destino</option>
+                                <optgroup label="En Perú">
+                                    <option>Cusco y Machu Picchu</option>
+                                    <option>Máncora, Piura</option>
+                                    <option>Arequipa</option>
+                                    <option>Iquitos, Amazonía</option>
+                                    <option>Puno, Lago Titicaca</option>
+                                    <option>Paracas, Ica</option>
+                                    <option>Huaraz, Áncash</option>
+                                    <option>Lima</option>
+                                </optgroup>
+                                <optgroup label="En el mundo">
+                                    <option>París, Francia</option>
+                                    <option>Bali, Indonesia</option>
+                                    <option>Tokio, Japón</option>
+                                    <option>Roma, Italia</option>
+                                    <option>Nueva York, EE. UU.</option>
+                                    <option>Bora Bora, Polinesia Francesa</option>
+                                    <option>Zermatt, Suiza</option>
+                                    <option>Buenos Aires, Argentina</option>
+                                </optgroup>
+                            </select>
+                        </div>
 
+                        <div class="campo">
+                            <label for="frecuencia">Frecuencia de viaje *</label>
+                            <select id="frecuencia" name="frecuencia" required>
+                                <option value="">¿Cada cuánto viajas?</option>
+                                <option>Es mi primer viaje</option>
+                                <option>Una vez al año</option>
+                                <option>De 2 a 3 veces al año</option>
+                                <option>4 veces al año o más</option>
+                            </select>
+                        </div>
 
+                        <fieldset class="campo campo-completo">
+                            <legend>Tipo de viaje preferido *</legend>
+                            <div class="opciones">
+                                <label class="opcion"><input type="radio" name="tipo" value="aventura" required> Aventura</label>
+                                <label class="opcion"><input type="radio" name="tipo" value="playa"> Playa</label>
+                                <label class="opcion"><input type="radio" name="tipo" value="cultura"> Cultura</label>
+                                <label class="opcion"><input type="radio" name="tipo" value="naturaleza"> Naturaleza</label>
+                            </div>
+                        </fieldset>
 
+                        <fieldset class="campo campo-completo">
+                            <legend>Intereses de viaje <span class="opcional">(opcional)</span></legend>
+                            <div class="opciones">
+                                <label class="opcion"><input type="checkbox" name="intereses" value="gastronomia"> Gastronomía</label>
+                                <label class="opcion"><input type="checkbox" name="intereses" value="fotografia"> Fotografía</label>
+                                <label class="opcion"><input type="checkbox" name="intereses" value="aventura"> Aventura</label>
+                                <label class="opcion"><input type="checkbox" name="intereses" value="cultura"> Cultura</label>
+                            </div>
+                        </fieldset>
+                    </div>
 
+                    <p class="nota-campos">* Campos obligatorios</p>
 
+                    <button type="submit" class="boton-registro">Registrarme</button>
 
+                    <p class="mensaje-form" id="mensaje-form" role="status"></p>
+                </form>
 
+            </div>
+        </section>
 
-
-
-
-
+        <section class="unete-boton">
+            <a href="../PAG/destinos.html" class="boton-explorar">Explorar destinos</a>
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="footer-contenido">
-            
+
             <div class="footer-logo">
                 <img src="../IMG/Firefly_RemoveBackground.png" alt="Australis Suite Logo">
                 <p>Descubre los rincones más mágicos del Perú con experiencias inolvidables y hospedajes únicos.</p>
             </div>
-            
+
 
             <div class="footer-links">
                 <h3>Explora</h3>
                 <ul>
                     <li><a href="../PAG/destinos.html">Destinos</a></li>
-                    <li><a href="#">Paquetes y Tours</a></li>
-                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="../PAG/paquetesytours.html">Paquetes y Tours</a></li>
+                    <li><a href="../PAG/nosotros.html">Nosotros</a></li>
                     <li><a href="../PAG/unete.html">Únete</a></li>
                     <li><a href="#">Contacto</a></li>
                 </ul>
@@ -75,9 +218,9 @@
             <div class="footer-social">
                 <h3>Síguenos</h3>
                 <div class="social-icons">
-                    <a href="#" target="_blank">Instagram</a>
-                    <a href="#" target="_blank">Facebook</a>
-                    <a href="#" target="_blank">TikTok</a>
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://www.tiktok.com" target="_blank" rel="noopener">TikTok</a>
                 </div>
                 <p class="contacto-info">contacto@australissuites.com</p>
                 <p class="contacto-info">Lima, Perú</p>
@@ -89,3 +232,20 @@
             <p>© 2026 Australis Suite. Todos los derechos reservados.</p>
         </div>
     </footer>
+
+    <script>
+        document.getElementById('fecha').max = new Date().toISOString().split('T')[0];
+
+        const formulario = document.getElementById('form-registro');
+        const mensaje = document.getElementById('mensaje-form');
+        formulario.addEventListener('submit', function (evento) {
+            evento.preventDefault();
+            const nombre = document.getElementById('nombres').value.trim();
+            mensaje.textContent = '¡Gracias, ' + nombre + '! Tus datos se validaron correctamente. ' +
+                'Por ahora el formulario no guarda ni envía información.';
+            formulario.reset();
+        });
+    </script>
+
+</body>
+</html>

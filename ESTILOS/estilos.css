@@ -39,12 +39,8 @@ div.menu a {
 
 nav > a {
   margin-right: 1.5rem;
-  font-size: 15px;
-  color: #1D2D44;
   text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 660;
-}
+ }
 
 .iniciar {
   background-color: #1D2D44;
@@ -73,10 +69,11 @@ nav > a {
   }
 }
 
+
 .container{
   width: 100%;
   height: 600px;
-  background-image: url(../IMG/gif\ fiunal.gif);
+  background-image: url(../IMG/home/gif\ fiunal.gif);
   background-size: cover;
   background-position: center;
   background-position: center 55%;
@@ -172,7 +169,7 @@ section a{
 }
 
 .ica{
-  background-image: url(../IMG/dest/ica.jpg);
+  background-image: url(../IMG/home/dest/ica.jpg);
   background-size: cover;
 }
 
@@ -183,27 +180,27 @@ section a{
 
 .cusco{
   background-size: cover;
-  background-image: url(../IMG/dest/cuzco.jpg);
+  background-image: url(../IMG/home/dest/cuzco.jpg);
 }
 .piura{
-  background-image: url(../IMG/dest/piura.jpg);
+  background-image: url(../IMG/home/dest/piura.jpg);
   background-size: cover;
 }
 .pasco{
-  background-image: url(../IMG/dest/pasco.jpg);
+  background-image: url(../IMG/home/dest/pasco.jpg);
   background-size: cover;
 }
 
 .nasca{
-  background-image: url(../IMG/exp/vuelo_nazca.jpg);
+  background-image: url(../IMG/home/exp/vuelo_nazca.jpg);
   background-size: cover;
 }
 .ciudadela{
-  background-image: url(../IMG/exp/ciudadela.jpg);
+  background-image: url(../IMG/home/exp/ciudadela.jpg);
   background-size: cover;
 }
 .villarica{
-  background-image: url(../IMG/exp/villa_rica.jpg);
+  background-image: url(../IMG/home/exp/villa_rica.jpg);
   background-size: cover;
 }
 

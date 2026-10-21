@@ -39,12 +39,8 @@ div.menu a {
 
 nav > a {
   margin-right: 1.5rem;
-  font-size: 15px;
-  color: #1D2D44;
   text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 660;
-}
+ }
 
 .iniciar {
   background-color: #1D2D44;
@@ -105,8 +101,6 @@ nav > a {
   height: 100%;
   object-fit: cover;
 }
-
-
 
 
 
